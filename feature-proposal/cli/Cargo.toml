@@ -1,9 +1,9 @@
 [package]
 name = "spl-feature-proposal-cli"
 version = "1.2.0"
-description = "SPL Feature Proposal Command-line Utility"
-authors = ["Solana Maintainers <maintainers@solana.foundation>"]
-repository = "https://github.com/solana-labs/solana-program-library"
+description = "RPL Feature Proposal Command-line Utility"
+authors = ["RENEC developers <dev@remitano.com>"]
+repository = "https://github.com/remitano/renec-program-library"
 license = "Apache-2.0"
 edition = "2018"
 
@@ -11,14 +11,14 @@ edition = "2018"
 chrono = "0.4.19"
 clap = "2.33.3"
 solana-clap-utils = "1.7.11"
-solana-cli-config = "1.7.11"
+renec-cli-config = { version = "1.8.14", path = "../../cli-config" }
 solana-client = "1.7.11"
 solana-logger = "1.7.11"
 solana-sdk = "1.7.11"
 spl-feature-proposal = { version = "1.0", path = "../program", features = ["no-entrypoint"] }
 
 [[bin]]
-name = "spl-feature-proposal"
+name = "rpl-feature-proposal"
 path = "src/main.rs"
 
 [package.metadata.docs.rs]

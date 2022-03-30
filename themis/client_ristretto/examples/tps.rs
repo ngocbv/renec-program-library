@@ -1,7 +1,7 @@
 //! Themis client
 
 use solana_banks_client::start_tcp_client;
-use solana_cli_config::{Config, CONFIG_FILE};
+use renec_cli_config::{Config, CONFIG_FILE};
 use solana_sdk::signature::read_keypair_file;
 use spl_themis_ristretto_client::test_e2e;
 use std::path::Path;

@@ -1,17 +1,17 @@
 [package]
-authors = ["Solana Maintainers <maintainers@solana.foundation>"]
+authors = ["RENEC developers <dev@remitano.com>"]
 description = "SPL Token Lending CLI"
 edition = "2018"
-homepage = "https://spl.solana.com/token-lending"
+homepage = "https://remitano.com/renec"
 license = "Apache-2.0"
 name = "spl-token-lending-cli"
-repository = "https://github.com/solana-labs/solana-program-library"
+repository = "https://github.com/remitano/renec-program-library"
 version = "0.1.0"
 
 [dependencies]
 clap = "2.33.3"
 solana-clap-utils = "1.7.11"
-solana-cli-config = "1.7.11"
+renec-cli-config = { version = "1.8.14", path = "../../cli-config" }
 solana-client = "1.7.11"
 solana-logger = "1.7.11"
 solana-sdk = "1.7.11"

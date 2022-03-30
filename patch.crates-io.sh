@@ -40,7 +40,6 @@ solana-banks-client = { path = "$solana_dir/banks-client"}
 solana-banks-server = { path = "$solana_dir/banks-server"}
 solana-bpf-loader-program = { path = "$solana_dir/programs/bpf_loader" }
 solana-clap-utils = {path = "$solana_dir/clap-utils" }
-solana-cli-config = {path = "$solana_dir/cli-config" }
 solana-cli-output = {path = "$solana_dir/cli-output" }
 solana-client = { path = "$solana_dir/client"}
 solana-core = { path = "$solana_dir/core"}
