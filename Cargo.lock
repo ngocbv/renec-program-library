@@ -2485,6 +2485,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "renec-cli-config"
+version = "1.8.14"
+dependencies = [
+ "dirs-next",
+ "lazy_static",
+ "serde",
+ "serde_derive",
+ "serde_yaml",
+ "url",
+]
+
+[[package]]
 name = "reqwest"
 version = "0.11.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3635,8 +3647,8 @@ version = "1.2.0"
 dependencies = [
  "chrono",
  "clap",
+ "renec-cli-config",
  "solana-clap-utils",
- "solana-cli-config",
  "solana-client",
  "solana-logger",
  "solana-sdk",
@@ -3807,10 +3819,10 @@ dependencies = [
  "borsh",
  "bs58 0.4.0",
  "clap",
+ "renec-cli-config",
  "serde_json",
  "solana-account-decoder",
  "solana-clap-utils",
- "solana-cli-config",
  "solana-client",
  "solana-logger",
  "solana-program",
@@ -3855,12 +3867,12 @@ dependencies = [
  "clap",
  "console 0.14.1",
  "indicatif 0.16.2",
+ "renec-cli-config",
  "serde",
  "serde_derive",
  "serde_json",
  "solana-account-decoder",
  "solana-clap-utils",
- "solana-cli-config",
  "solana-cli-output",
  "solana-client",
  "solana-logger",
@@ -3899,8 +3911,8 @@ name = "spl-token-lending-cli"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "renec-cli-config",
  "solana-clap-utils",
- "solana-cli-config",
  "solana-client",
  "solana-logger",
  "solana-program",
